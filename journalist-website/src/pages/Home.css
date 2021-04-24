@@ -1,0 +1,19 @@
+.overflow{
+    max-height: 70vh;
+    overflow:hidden;
+    filter: brightness(50%);
+    z-index: 1000;
+}
+
+.image1caption{
+    position: absolute;
+    right: 12%;
+    bottom: 40%;
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
