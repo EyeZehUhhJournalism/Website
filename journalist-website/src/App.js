@@ -5,6 +5,9 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 
 import Home from './pages/Home'
+import Twitter from './assets/twitter.svg'
+import Instagram from './assets/instagram.svg'
+import Youtube from './assets/youtube.svg'
 
 import {
   BrowserRouter as Router,
@@ -24,6 +27,17 @@ export default function App() {
               <Nav.Link href="#home">Home</Nav.Link>
             </Nav>
           </Navbar.Collapse>
+          <Nav>
+            <Nav.Link href="https://www.Twitter.com/EyeZehUhh">
+              <img src={Twitter} width="20" height="20" alt="Twitter"/>
+            </Nav.Link>
+            <Nav.Link href="https://www.instagram.com/eyezehuhh/">
+              <img src={Instagram} width="25" height="25" alt="Instagram"/>
+            </Nav.Link>
+            <Nav.Link href="https://www.youtube.com/channel/UC_2iU1Y9AWP12FddDpfbnmg">
+              <img src={Youtube} width="25" height="25" alt="Youtube"/>
+            </Nav.Link>
+          </Nav>
         </Navbar>
 
         {/* A <Switch> looks through its children <Route>s and

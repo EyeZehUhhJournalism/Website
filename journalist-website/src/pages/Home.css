@@ -3,6 +3,7 @@
     overflow:hidden;
     filter: brightness(50%);
     z-index: 1000;
+    margin-bottom: 10px;
 }
 
 .image1caption{
@@ -16,4 +17,45 @@
     color: #fff;
     font-size: 30px;
     font-family:"Lucida Console", "Courier New", monospace;
+}
+
+.image2caption{
+    position: absolute;
+    right: 12%;
+    bottom: 52%;
+    left: 12%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+.image3caption{
+    position: absolute;
+    right: 12%;
+    bottom: 40%;
+    left: 55%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-family:"Lucida Console", "Courier New", monospace;
+}
+
+.HomeAbout{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+p {
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
