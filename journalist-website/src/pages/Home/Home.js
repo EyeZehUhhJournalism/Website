@@ -2,9 +2,9 @@ import './Home.css';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import home1 from "../assets/thumbnail_image1.png";
-import home2 from "../assets/thumbnail_image2.png";
-import home3 from "../assets/cool.jpeg";
+import home1 from "../../assets/thumbnail_image1.png";
+import home2 from "../../assets/thumbnail_image2.png";
+import home3 from "../../assets/cool.jpeg";
 
 function Home() {
     return (
