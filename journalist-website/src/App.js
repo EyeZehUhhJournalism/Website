@@ -24,7 +24,6 @@ import {
 export default function App() {
   return (
     <Router>
-      <div>
         <Navbar className="navbar-dark navbar-fixed-top" expand="lg" sticky="top">
           <Navbar.Brand href="home">Isaiah</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -35,19 +34,27 @@ export default function App() {
               <Nav.Link href="podcasts">Podcasts and Video Essays</Nav.Link>
               <Nav.Link href="voiceover">Voiceover Work</Nav.Link>
             </Nav>
-            <Nav>
-              <Nav.Link href="https://www.Twitter.com/EyeZehUhh">
-                <img src={Twitter} width="20" height="20" alt="Twitter" />
-              </Nav.Link>
-              <Nav.Link href="https://www.instagram.com/eyezehuhh/">
-                <img src={Instagram} width="25" height="25" alt="Instagram" />
-              </Nav.Link>
-              <Nav.Link href="https://www.youtube.com/channel/UC_2iU1Y9AWP12FddDpfbnmg">
-                <img src={Youtube} width="25" height="25" alt="Youtube" />
-              </Nav.Link>
-              <Nav.Link href="https://www.twitch.tv/eyezehuhh">
-                <img src={Twitch} width="18" height="18" alt="Twitch" />
-              </Nav.Link>
+            <Nav className="Icons">
+              <div className="Icon">
+                <Nav.Link href="https://www.Twitter.com/EyeZehUhh">
+                  <img src={Twitter} width="20" height="20" alt="Twitter" />
+                </Nav.Link>
+              </div>
+              <div className="Icon">
+                <Nav.Link href="https://www.instagram.com/eyezehuhh/">
+                  <img src={Instagram} width="25" height="25" alt="Instagram" />
+                </Nav.Link>
+              </div>
+              <div className="Icon">
+                <Nav.Link href="https://www.youtube.com/channel/UC_2iU1Y9AWP12FddDpfbnmg">
+                  <img src={Youtube} width="25" height="25" alt="Youtube" />
+                </Nav.Link>
+              </div>
+              <div className="Icon">
+                <Nav.Link href="https://www.twitch.tv/eyezehuhh">
+                  <img src={Twitch} width="18" height="18" alt="Twitch" />
+                </Nav.Link>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -55,12 +62,12 @@ export default function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-        <Route path="/journalism">
+          <Route path="/journalism">
             <Journalism />
           </Route>
           <Route path="/podcasts">
             <Podcasts />
-          </Route>        
+          </Route>
           <Route path="/voiceover">
             <Voiceover />
           </Route>
@@ -68,7 +75,6 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
     </Router>
   );
 }

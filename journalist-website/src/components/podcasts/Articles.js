@@ -1,26 +1,26 @@
-import './Articles.css'
+import './Podcasts.css'
 
-import { articleList } from '../assets/journalism/articleList';
+import { podcastList } from '../../assets/journalism/articleList';
 
 import { Card, CardDeck, Container } from 'react-bootstrap';
 
 
 
 
-const Articles = () => {
+const Podcasts = () => {
   return (
     <Container>
       <CardDeck>
 
-        {articleList.map(article =>
+        {podcastList.map(article =>
 
 
           <Card className="box">
             <a href={article.link}>
-              <Card.Img variant="top" src={article.image} fluid />
+              <Card.Img variant="top" src={podcast.image} fluid />
               <Card.Body>
                 <Card.Title>
-                  {article.title}
+                  {podcast.title}
                 </Card.Title>
               </Card.Body>
             </a>
