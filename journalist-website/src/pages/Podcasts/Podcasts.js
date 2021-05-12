@@ -1,6 +1,15 @@
+import {Suspense, lazy} from 'react';
+import './Podcasts.css';
+const PodcastList = lazy(() => import('../../components/podcasts/PodcastList'));
+const EssayList = lazy(() => import('../../components/essay/Essays'));
+
+
 function Podcasts() {
     return (
-        <h1>Podcasts</h1>
+        <Suspense fallback={<p>Loading Podcasts</p>}>
+            <EssayList />
+            <PodcastList />
+        </Suspense>
     );
 }
 

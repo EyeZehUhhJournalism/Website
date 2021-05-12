@@ -16,7 +16,7 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family:"Lucida Console", "Courier New", monospace;
+    font-family: 'Georgia A1' !important;
 }
 
 .image2caption{
@@ -29,7 +29,7 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family:"Lucida Console", "Courier New", monospace;
+    font-family: 'Georgia A1' !important;
 }
 
 .image3caption{
@@ -42,7 +42,7 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family:"Lucida Console", "Courier New", monospace;
+    font-family: 'Georgia A1' !important;
 }
 
 .HomeAbout{

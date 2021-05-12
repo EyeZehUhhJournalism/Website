@@ -8,11 +8,10 @@
     font-size: 22px;
     color: #333333;
     font-family: Gothic A1 !important;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .card{
-    font-family:Arial, Helvetica, sans-serif;
     min-width: 18rem;
     max-width: 30vw;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.267);
@@ -20,17 +19,20 @@
 }
 
 .card:hover{
-    transform: scale(1.05);
+    transform: scale(1.01);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.233), 0 4px 8px rgba(0, 0, 0, 0.233);
     background: rgb(230, 230, 230);
 }
 
 @media (min-width: 576px){
-    .card-img-top {
-        width: 100%;
+    .video {
         height: 15vw;
         object-fit: cover;
     }
+}
+
+.video{
+    width: 100%;
 }
 
 .card-deck{
