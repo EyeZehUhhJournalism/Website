@@ -3,13 +3,21 @@
     padding-bottom: 3vh;
 }
 
-h1{
+.journal{
+    background-image: linear-gradient(to bottom right, #2F00FA, #7c0092, #AE48C1);
+}
+
+.journalismHeader{
     margin-left: 4rem;
     margin-right: 4rem;
     padding-bottom: 2vh;
+    font-family: 'edo';
+    color: white;
 }
 
-p {
+.journalismParagraph {
     margin-left: 5rem;
     margin-right: 5rem;
+    color:white;
+    font-size: 1.2vw;
 }

@@ -3,7 +3,22 @@ iframe{
     width: 43vw;
 }
 
+.prominent{
+    width:86vw;
+}
+
 .soundcloud{
     margin-left: 4rem;
     margin-right: 4rem;
+}
+
+.voiceover{
+    background-image: linear-gradient(to bottom right, #2F00FA, #7c0092, #AE48C1);
+    padding-top: 15px;
+    height: 100vh;
+}
+
+.text{
+    color:white;
+    font-family: "edo";
 }

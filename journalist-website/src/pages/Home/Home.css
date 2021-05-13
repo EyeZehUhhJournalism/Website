@@ -16,7 +16,7 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family: 'Georgia A1' !important;
+    font-family: 'edo' !important;
 }
 
 .image2caption{
@@ -29,7 +29,8 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family: 'Georgia A1' !important;
+    font-family: 'edo' !important;
+    width: 30%;
 }
 
 .image3caption{
@@ -42,12 +43,17 @@
     padding-bottom: 20px;
     color: #fff;
     font-size: 30px;
-    font-family: 'Georgia A1' !important;
+    font-family: 'edo' !important;
 }
 
 .HomeAbout{
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.header{
+    font-family: 'edo';
+    padding-top:10px;
 }
 
 h1{
@@ -58,4 +64,5 @@ h1{
 p {
     margin-left: 4rem;
     margin-right: 4rem;
+    font-size: 1.2rem;
 }

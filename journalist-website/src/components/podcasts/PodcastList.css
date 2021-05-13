@@ -25,13 +25,13 @@
 }
 
 @media (min-width: 576px){
-    .video {
+    .podcastVideos {
         height: 15vw;
         object-fit: cover;
     }
 }
 
-.video{
+.podcastVideo{
     width: 100%;
 }
 
@@ -42,4 +42,8 @@
 
 a:hover{
     text-decoration:none;
+}
+
+.PodcastTop{
+    padding-top: 5vh;
 }

@@ -25,7 +25,7 @@ export default function App() {
   return (
     <Router>
         <Navbar className="navbar-dark navbar-fixed-top" expand="lg" sticky="top">
-          <Navbar.Brand href="home">Isaiah</Navbar.Brand>
+          <Navbar.Brand href="home"><div className="brand">Isaiah</div></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
@@ -33,6 +33,7 @@ export default function App() {
               <Nav.Link href="journalism">Journalism</Nav.Link>
               <Nav.Link href="podcasts">Podcasts and Video Essays</Nav.Link>
               <Nav.Link href="voiceover">Voiceover Work</Nav.Link>
+              <Nav.Link href="voiceover">Contact Me</Nav.Link>
             </Nav>
             <Nav className="Icons">
               <div className="Icon">

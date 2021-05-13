@@ -5,18 +5,19 @@ const Articles = lazy(() => import('../../components/Articles'));
 function Journalism() {
     return (
         <>
+        <div className="journal">
         <div className="JournalismAbout container-fluid">
-            <h1>
+            <h1 className="journalismHeader">
                 Journalism Articles
             </h1>
-            <p>
-                The collection of articles below are a feature of my work from my time at the Columbia Chronicle. Enter here some personal statement about the meaning of these articles...                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel eros donec ac odio tempor orci dapibus ultrices. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Enim neque volutpat ac tincidunt vitae semper quis lectus. Commodo viverra maecenas accumsan lacus vel. Non enim praesent elementum facilisis leo vel fringilla. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra.
-
+            <p className="journalismParagraph">
+                The cream of the crop assortment of articles I wrote at the Columbia Chronicle. Among them are arts and culture, metro, campus news , opinion pieces and  reviews  during my time as  Staff Reporter and Opinions Editor.
             </p>
         </div>
         <Suspense fallback={<p>Loading Articles</p>}>
             <Articles />
         </Suspense>
+        </div>
         </>
     );
 }

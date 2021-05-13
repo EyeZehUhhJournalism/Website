@@ -13,3 +13,11 @@
 .Icons {
     flex-direction: row !important;
 }
+
+.mr-auto{
+    font-size:1rem;
+}
+
+.brand{
+    font-family: "edo";
+}
