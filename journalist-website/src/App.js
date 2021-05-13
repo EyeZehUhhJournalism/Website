@@ -16,24 +16,25 @@ import Youtube from './assets/youtube.svg'
 import Twitch from './assets/twitch.svg'
 
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
+  Link
 } from "react-router-dom";
 
 export default function App() {
   return (
     <Router>
         <Navbar className="navbar-dark navbar-fixed-top" expand="lg" sticky="top">
-          <Navbar.Brand href="home"><div className="brand">Isaiah</div></Navbar.Brand>
+          <Navbar.Brand href="/"><div className="brand">Isaiah</div></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link href="home">Home</Nav.Link>
-              <Nav.Link href="journalism">Journalism</Nav.Link>
-              <Nav.Link href="podcasts">Podcasts and Video Essays</Nav.Link>
-              <Nav.Link href="voiceover">Voiceover Work</Nav.Link>
-              <Nav.Link href="voiceover">Contact Me</Nav.Link>
+              <Nav.Link ><Link to="/">Home</Link></Nav.Link>
+              <Nav.Link ><Link to="/journalism">Journalism</Link></Nav.Link>
+              <Nav.Link ><Link to="/podcasts">Podcasts and Video Essays</Link></Nav.Link>
+              <Nav.Link ><Link to="/voiceover">Voiceover Work</Link></Nav.Link>
+              <Nav.Link ><Link to="/voiceover">Contact Me</Link></Nav.Link>
             </Nav>
             <Nav className="Icons">
               <div className="Icon">
