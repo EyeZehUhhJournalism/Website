@@ -19,10 +19,12 @@ import royking from './JA_CHRONICLE_RoyKing_168.jpg'
 import dmc from './DMC.jpg'
 import wrest from './wrest.png'
 import soundtrack from './CF_CHRONICLE_AC_Varela002.jpg'
-
-
+import yasuke from './yasuke.png'
+import nana from './nana.jpg'
 
 export const articleList = [
+    {"title": "NANA Teaches Readers How to Mourn a Friendship", "image":nana, "link": "https://www.fanbyte.com/features/nana-teaches-readers-how-to-mourn-a-friendship/"},
+    { "title": "Why Netflix's Yasuke Misses The Mark", "image": yasuke, "link": "https://sugargamers.com/2021/07/08/why-netflixs-yasuke-misses-the-mark/"},
     { "title": "Q&A: Papa Chan and Grandma Marina create social media time capsule with ‘Drawings for my Grandchildren’", "image": chan, "link": "https://columbiachronicle.com/qa-papa-chan-and-grandma-marina-create-social-media-time-capsule-with-drawings-for-my-grandchildren" },
     { "title": "Chicago Black-owned food services bring love from their kitchen to your home", "image": food, "link": "https://columbiachronicle.com/chicago-black-owned-food-services-bring-love-from-their-kitchen-to-your-home" },
     { "title": "Professionals demystify life as a sex worker on ‘Mind, Body, Health & Politics’ podcast", "image": sexwork, "link": "https://columbiachronicle.com/professionals-demystify-life-as-a-sex-worker-on-mind-body-health-politics-podcast" },
